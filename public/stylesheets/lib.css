@@ -9,7 +9,7 @@ body, input {
 }
 
 a {
-  color: #8da7b8;
+  color: white;
   text-decoration: none;
 }
 
@@ -31,13 +31,13 @@ header {
   align-items: baseline;
 }
 
-header > .login-info {
-  margin-left: auto;
+select {
+  background-color: white;
+  color: black;
 }
 
-main {
-  width: 450px;
-  margin: 0 auto;
+header > .login-info {
+  margin-left: auto;
 }
 
 .new-finstagram-post {
@@ -60,6 +60,20 @@ main {
   display: inline-block;
 }
 
+.button-header {
+  padding: .5em;
+  background-color:	#6666cc;
+  border: solid 1px white;
+  display: inline-block;
+}
+
+.new {
+  padding: .5em;
+  background-color:	#6666cc;
+  border: solid 1px white;
+  display: inline-block;
+}
+
 .finstagram-post > * {
   margin-bottom: 1em;
 }
@@ -72,6 +86,7 @@ main {
 .user-info img {
   width: 40px;
 }
+
 
 .user-info h2 {
   margin: 0 0 0 .5em;
